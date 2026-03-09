@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhD Researcher & Developer | Portfolio</title>
+    <meta name="description"
+        content="Personal portfolio of a cross-disciplinary PhD student with background in Physics, Brain Science, Data Science, and C# Backend Development.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Ph<span class="highlight">D</span>.<span class="highlight-alt">Dev</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">首頁</a></li>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#expertise">專業領域</a></li>
+                <li><a href="#projects">專案歷程</a></li>
+                <li><a href="#contact">聯絡方式</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="fullscreen-section">
+            <div class="hero-content reveal">
+                <p class="greeting">嗨，我是跨領域的</p>
+                <h1 class="main-title">研究者 <span class="amp">&</span> 開發者</h1>
+                <p class="subtitle">將<span class="gradient-text-1">物理與腦科學</span>的洞察力，轉化為<span
+                        class="gradient-text-2">資料科學與 C# 後端</span>的強大效能。</p>
+                <div class="cta-buttons">
+                    <a href="#about" class="btn btn-primary">了解我的旅程</a>
+                    <a href="#projects" class="btn btn-secondary">查看專案</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <p>Scroll</p>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title reveal">關於我的<span class="highlight">跨域之旅</span></h2>
+            <div class="about-container reveal">
+                <div class="about-text glass-card">
+                    <p>我是一名擁有多重學術與實務背景的博士生。從探究宇宙基本規律的<strong>物理學</strong>，到解析人類意識與認知的<strong>腦科學</strong>，這些深度的科學訓練培養了我嚴謹的邏輯思維與解決複雜問題的能力。
+                    </p>
+                    <p>隨著研究的深入，我意識到數據的力量，因而投入<strong>資料科學</strong>的領域，從海量資訊中淬鍊出有價值的洞見。同時，為了將這些研究成果與數據模型落地應用，我鑽研了兩年
+                        <strong>C# 後端開發</strong>，具備從數學模型到實際系統架構部署的完整端到端能力。</p>
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">年後端開發</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">跨域專業</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">PhD</span>
+                            <span class="stat-label">研究學位</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="expertise" class="section">
+            <h2 class="section-title reveal">深度的<span class="highlight">技術與科學</span>量能</h2>
+            <div class="expertise-grid">
+                <!-- Physics -->
+                <div class="expertise-card glass-card reveal">
+                    <div class="card-icon" style="color: #00d2ff;">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>物理學背景</h3>
+                    <p>具備扎實的微積分、線性代數與統計物理基礎，擅長建立數學模型以描述複雜系統行為，並用以優化演算法效率。</p>
+                    <ul class="skill-tags">
+                        <li>數學建模</li>
+                        <li>數值分析</li>
+                        <li>統計動力學</li>
+                    </ul>
+                </div>
+                <!-- Brain Science -->
+                <div class="expertise-card glass-card reveal" style="transition-delay: 0.1s;">
+                    <div class="card-icon" style="color: #b14bf4;">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>腦科學背景</h3>
+                    <p>深刻理解神經網路運作機制與人類認知模型，曾處理複雜的 EEG/fMRI 生理訊號，對於仿生演算法與 AI 模型有獨到見解。</p>
+                    <ul class="skill-tags">
+                        <li>訊號處理</li>
+                        <li>認知建模</li>
+                        <li>神經網絡</li>
+                    </ul>
+                </div>
+                <!-- Data Science -->
+                <div class="expertise-card glass-card reveal" style="transition-delay: 0.2s;">
+                    <div class="card-icon" style="color: #ff3b7c;">
+                        <i class="fas fa-chart-network"></i>
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>資料科學</h3>
+                    <p>熟練運用 Python 進行數據清洗、特徵工程與機器學習模型訓練。專精於將混亂的原始數據轉化為具備商業或研究價值的預測模型。</p>
+                    <ul class="skill-tags">
+                        <li>Python</li>
+                        <li>Machine Learning</li>
+                        <li>Data Visualization</li>
+                    </ul>
+                </div>
+                <!-- C# Backend -->
+                <div class="expertise-card glass-card reveal" style="transition-delay: 0.3s;">
+                    <div class="card-icon" style="color: #68217a;"> <!-- C# purple -->
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>C# 後端開發</h3>
+                    <p>累積兩年開發經驗，熟悉 .NET Core / .NET 5+ 生態系、RESTful API 設計、Entity Framework Core 及關聯式資料庫設計，確保系統高可用與擴展性。
+                    </p>
+                    <ul class="skill-tags">
+                        <li>.NET Core</li>
+                        <li>RESTful API</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title reveal">代表性<span class="highlight">專案</span>與研究</h2>
+            <div class="timeline reveal">
+                <!-- Project 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="project-tags">
+                            <span class="tag">腦科學</span>
+                            <span class="tag">Data Science</span>
+                        </div>
+                        <h3>大腦認知訊號預測模型</h3>
+                        <p>結合腦科學原理與機器學習，處理千兆位元級的 EEG 訊號。利用特徵萃取與深度神經網路，建立高準確率的認知狀態分類器。</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="project-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">.NET</span>
+                            <span class="tag">Backend</span>
+                        </div>
+                        <h3>高併發資料收集與分析後端系統</h3>
+                        <p>使用 C# 和 ASP.NET Core 設計微服務架構，為研究團隊建立高效能的實驗數據收集 API。透過非同步處理與快取機制，大幅降低 API 延遲。</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="project-tags">
+                            <span class="tag">物理</span>
+                            <span class="tag">建模</span>
+                            <span class="tag">Algorithm</span>
+                        </div>
+                        <h3>複雜系統數值模擬引擎</h3>
+                        <p>基於統計物理學構建的網格化數值模擬系統，優化演算法時間複雜度由 O(N²) 降至 O(N log N)，並實現平行運算加速計算過程。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="contact-card glass-card reveal">
+                <h2 class="section-title">準備好<span class="highlight">合作</span>了嗎？</h2>
+                <p>無論是學術研究的探討、資料科學的專案，或是後端系統的開發，我都非常樂意進行交流。</p>
+                <div class="social-links">
+                    <a href="mailto:nicki831028@g.ncu.edu.tw" class="social-icon" aria-label="Email"><i
+                            class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/Nicki1028" target="_blank" class="social-icon" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon" aria-label="Google Scholar"><i
+                            class="fas fa-graduation-cap"></i></a>
+                </div>
+                <a href="mailto:nicki831028@g.ncu.edu.tw" class="btn btn-primary mt-4">與我聯絡</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 PhD Developer Portfolio. Interdisciplinary Science & Engineering.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
